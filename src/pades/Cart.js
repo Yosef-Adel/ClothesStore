@@ -23,7 +23,7 @@ const Cart = () => {
             cart
         </h1>
       {
-        totalAmount=== 0? <div className={classes.head}><h1 >Catr is empty</h1></div> :
+        totalAmount=== 0? <div className={classes.head}><h1 >Cart is empty</h1></div> :
         <div className={classes.cont}>
         <div>
             <div className={classes.productContainer}>
