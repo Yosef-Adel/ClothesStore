@@ -31,22 +31,32 @@ const addHandeler = ()=>{
 
             <div className={classes.size}>
                 <p>Size</p>
-                   <label className={classes.container}> M
-                    <input type='radio'  name="radio"/>
-                    <span className={classes.checkmark}></span>
-                    </label> 
-                    <label className={classes.container}> S
-                    <input type='radio' name="radio"/>
-                    <span className={classes.checkmark}></span>
-                    </label> 
-                    <label className={classes.container}> XL
-                    <input type='radio' name="radio"/>
-                    <span className={classes.checkmark}></span>
-                    </label> 
-                    <label className={classes.container}> XXL
-                    <input type='radio' name="radio"/>
-                    <span className={classes.checkmark}></span>
-                    </label> 
+                  <div className={classes.fixCon}>
+                        <div className={classes.lableCon}>
+                          <label className={classes.container}> M
+                          <input type='radio'  name="radio"/>
+                          <span className={classes.checkmark}></span>
+                          </label> 
+                          </div>
+                          <div>
+                          <label className={classes.container}> S
+                          <input type='radio' name="radio"/>
+                          <span className={classes.checkmark}></span>
+                          </label> 
+                          </div>
+                          <div>
+                          <label className={classes.container}> XL
+                          <input type='radio' name="radio"/>
+                          <span className={classes.checkmark}></span>
+                          </label> 
+                          </div>
+                          <div>
+                          <label className={classes.container}> XXL
+                          <input type='radio' name="radio"/>
+                          <span className={classes.checkmark}></span>
+                          </label> 
+                          </div>
+                  </div>
             </div>
             <div className= {classes.opt}>
               <div className={classes.control}>
