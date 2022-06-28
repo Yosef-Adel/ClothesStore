@@ -1,0 +1,33 @@
+.layout {
+    height: 92vh;
+    position: relative;
+    background-image: linear-gradient(
+    to right bottom ,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)), 
+    url("../../img/bg.jpg");
+    background-size: cover;
+    background-position: top ;
+    padding-top: 8vh;
+    
+}
+.textBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn {
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    font-size: 2rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+    color: rgb(80, 80, 80);
+    align-items: center;
+}
+.arrow {
+    margin-left: .5rem;
+}

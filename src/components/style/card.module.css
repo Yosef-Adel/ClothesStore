@@ -1,0 +1,63 @@
+.card {
+width: 30rem;
+margin: 2rem 0;
+}
+.imgContainer,
+.imgContainerSold  {
+    height: 40rem;
+    width: 30rem;
+    overflow: hidden;
+   
+}
+
+.imgContainer img,
+.imgContainerSold img {
+    width: 100%;
+    transition: all .5s;
+}
+.cardInfo {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 1rem 2rem;
+    transition: .5s ease;
+}
+.cardInfo span {
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.imgContainer img:hover {
+    transform: scale(1.2);
+    opacity: .5;
+}
+.imgContainerSold {
+    position: relative;
+}
+.imgContainerSold img {
+    opacity: .5;
+}
+
+.soldOut {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 20px;
+    left: 10px;
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+    border-radius: 5px;
+}
+.soldOut {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: .5s ease;
+
+}
+.soldOut p {
+    margin-left: 5px;
+}

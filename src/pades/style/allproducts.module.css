@@ -1,0 +1,25 @@
+.allproductContainer {
+padding-top: 20vh;
+padding-bottom: 10vh;
+min-height: 80vh;
+}
+.allproductContainer h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .5s ease;
+    padding-bottom: 0;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+     margin-top: 2rem;
+     flex-wrap: wrap;
+     width: 80%;
+     margin: auto;
+     margin-top: 10rem;
+     text-align: center;
+}
