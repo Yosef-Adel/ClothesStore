@@ -22,6 +22,8 @@ const Cart = () => {
         <h1>
             cart
         </h1>
+      {
+        totalAmount=== 0? <div className={classes.head}><h1 >Catr is empty</h1></div> :
         <div className={classes.cont}>
         <div>
             <div className={classes.productContainer}>
@@ -57,11 +59,12 @@ const Cart = () => {
             <div className={classes.cartf}>
             <h1>we Accept:</h1>
             <div className={classes.imgCon}>
-                <img src={img} alt = ''/>
+                <img src={img} alt = 'ggg'/>
             </div>
             </div>
         </div>
-        </div>
+        </div> 
+      }
     </div>
   )
 }
