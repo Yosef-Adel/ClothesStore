@@ -91,3 +91,9 @@
 .imgCon img {
     width: 100%;
 }
+.head h1{
+    margin-top: 15vh;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.521);
+
+}
