@@ -130,3 +130,11 @@
 .btn button:hover {
     opacity: .7;
 }
+.fixCon {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fixCon div {
+    display: inline-block;
+    margin: 1rem;
+}
